@@ -41,7 +41,7 @@ public class PetTest {
                 new Dog("Rob"),
                 new Frog("Cob")
         };
-        
+
         for (Pet pet: pets) {
             Assert.assertEquals(String.format("Name: %s -- Says: %s", pet.getName(), pet.speak()), ((Pet) pet).toString());
         }
